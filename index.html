@@ -305,8 +305,8 @@
                 Se sei interessato a uno o più profili, compila il form sottostante con i codici dei curriculum
             </p>
             
-            <!-- IMPORTANTE: Sostituisci "your-form-id" con il tuo ID Formspree -->
-            <form action="https://formspree.io/f/your-form-id" method="POST">
+            <!-- Form gestito da netlify -->
+            <form name="richieste" method="POST" data-netlify="true">      
                 <div class="form-group">
                     <label for="company">Nome Azienda *</label>
                     <input type="text" class="form-control" id="company" name="company" required>
