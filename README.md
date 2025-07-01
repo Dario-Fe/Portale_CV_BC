@@ -17,10 +17,6 @@ Questo portale nasce come iniziativa di autoaiuto per:
 - **📧 Sistema di contatto**: Le aziende interessate possono contattare tramite form integrato
 - **💰 Completamente gratuito**: Basato su tecnologie open source
 
-## 🚀 Demo
-
-🌐 **[Visualizza il portale](https://tuonome.github.io/nome-repository)**
-
 ## 🛠️ Tecnologie Utilizzate
 
 - **Frontend**: HTML5, CSS3, JavaScript vanilla
