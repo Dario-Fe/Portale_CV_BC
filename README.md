@@ -20,7 +20,7 @@ Questo portale nasce come iniziativa di autoaiuto per:
 ## 🛠️ Tecnologie Utilizzate
 
 - **Frontend**: HTML5, CSS3, JavaScript vanilla
-- **Hosting**: GitHub Pages (gratuito)
+- **Hosting**: GitHub e Netlify (gratuito)
 - **Design**: CSS Grid, Flexbox, design responsive
 
 ## 📋 Come Funziona
