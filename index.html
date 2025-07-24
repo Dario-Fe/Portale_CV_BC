@@ -106,6 +106,25 @@
             margin-bottom: 1rem;
         }
 
+        .cv-availability {
+            display: inline-block;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            margin-left: 0.5rem;
+        }
+
+        .cv-availability-true {
+            background: #28a745;
+        }
+
+        .cv-availability-false {
+            background: #dc3545;
+        }
+
         .cv-title {
             font-size: 1.3rem;
             font-weight: bold;
@@ -398,6 +417,7 @@
         const curricula = [
              {
                 code: "CV001",
+                available: true,
                 title: "Operatore produzione",
                 experience: "20 anni di esperienza",
                 sector: "Produzione",
@@ -415,6 +435,7 @@
             },
             {
                 code: "CV002",
+                available: true,
                 title: "Operatore produzione",
                 experience: "27 anni di esperienza",
                 sector: "Produzione",
@@ -434,6 +455,7 @@
             },
 {
                 code: "CV003",
+                available: true,
                 title: "Operatore produzione - Laboratorio",
                 experience: "29 anni di esperienza",
                 sector: "Produzione",
@@ -451,6 +473,7 @@
             },
 {
                 code: "CV004",
+                available: true,
                 title: "Operatore produzione",
                 experience: "11 anni di esperienza",
                 sector: "Produzione",
@@ -471,6 +494,7 @@
             },
 {
                 code: "CV005",
+                available: true,
                 title: "Manutentore",
                 experience: "30 anni di esperienza",
                 sector: "Manutenzione",
@@ -489,6 +513,7 @@
             },
 {
                 code: "CV006",
+                available: true,
                 title: "Magazzino - Produzione",
                 experience: "23 anni di esperienza",
                 sector: "Logistica",
@@ -506,6 +531,7 @@
             },
 {
                 code: "CV007",
+                available: true,
                 title: "Operatore Produzione",
                 experience: "33 anni di esperienza",
                 sector: "Produzione",
@@ -523,6 +549,7 @@
             },
 {
                 code: "CV008",
+                available: true,
                 title: "Operatore Produzione",
                 experience: "15 anni di esperienza",
                 sector: "Produzione",
@@ -540,6 +567,7 @@
             },
 {
                 code: "CV009",
+                available: true,
                 title: "Operatore Produzione - Preposto",
                 experience: "28 anni di esperienza",
                 sector: "Produzione",
@@ -558,6 +586,7 @@
             },
 {
                 code: "CV010",
+                available: true,
                 title: "Operatore Produzione",
                 experience: "11 anni di esperienza",
                 sector: "Produzione",
@@ -576,6 +605,7 @@
             },
 {
                 code: "CV011",
+                available: true,
                 title: "Operatore Produzione",
                 experience: "28 anni di esperienza",
                 sector: "Produzione",
@@ -594,6 +624,7 @@
             },
 {
                 code: "CV012",
+                available: true,
                 title: "R&D - Laboratorio",
                 experience: "22 anni di esperienza",
                 sector: "Laboratorio",
@@ -611,6 +642,7 @@
             },
 {
                 code: "CV013",
+                available: true,
                 title: "Laboratorio - Produzione",
                 experience: "28 anni di esperienza",
                 sector: "Laboratorio",
@@ -627,6 +659,7 @@
             },
 {
                 code: "CV014",
+                available: true,
                 title: "Supervisor Produzione",
                 experience: "19 anni di esperienza",
                 sector: "Produzione",
@@ -646,6 +679,7 @@
             },
 {
                 code: "CV015",
+                available: true,
                 title: "Operatore Pulizie",
                 experience: "11 anni di esperienza",
                 sector: "Produzione",
@@ -666,6 +700,7 @@
             },
 {
                 code: "CV016",
+                available: true,
                 title: "Operatore Responsabile Pulizie",
                 experience: "11 anni di esperienza",
                 sector: "Produzione",
@@ -685,6 +720,7 @@
             },
 {
                 code: "CV017",
+                available: true,
                 title: "Supervisor Produzione",
                 experience: "28 anni di esperienza",
                 sector: "Produzione",
@@ -702,6 +738,7 @@
             },
 {
                 code: "CV018",
+                available: true,
                 title: "Manutentore",
                 experience: "6 anni di esperienza",
                 sector: "Manutenzione",
@@ -725,6 +762,7 @@
             },
 {
                 code: "CV019",
+                available: true,
                 title: "Operatore Produzione",
                 experience: "20 anni di esperienza",
                 sector: "Produzione",
@@ -745,6 +783,7 @@
             },
 {
                 code: "CV020",
+                available: true,
                 title: "Operatore Produzione - Preposto",
                 experience: "34 anni di esperienza",
                 sector: "Produzione",
@@ -762,6 +801,7 @@
             },
 {
                 code: "CV021",
+                available: true,
                 title: "Custom & Care",
                 experience: "24 anni di esperienza",
                 sector: "Laboratorio",
@@ -780,6 +820,7 @@
             },
 {
                 code: "CV022",
+                available: true,
                 title: "Manutentore",
                 experience: "28 anni di esperienza",
                 sector: "Manutenzione",
@@ -800,6 +841,7 @@
             },
 {
                 code: "CV023",
+                available: true,
                 title: "Responsabile Contabile",
                 experience: "25 anni di esperienza",
                 sector: "Amministrazione",
@@ -818,6 +860,7 @@
             },
 {
                 code: "CV024",
+                available: true,
                 title: "Operatore Produzione",
                 experience: "4 anni di esperienza",
                 sector: "Produzione",
@@ -837,6 +880,7 @@
             },
 {
                 code: "CV025",
+                available: true,
                 title: "Operatore Produzione",
                 experience: "1 anno di esperienza",
                 sector: "Produzione",
@@ -856,6 +900,7 @@
             },
 {
                 code: "CV026",
+                available: true,
                 title: "Production Planner",
                 experience: "27 anni di esperienza",
                 sector: "Amministrazione",
@@ -873,6 +918,7 @@
             },
 {
                 code: "CV027",
+                available: true,
                 title: "R&D Manager",
                 experience: "13 anni di esperienza",
                 sector: "Amministrazione",
@@ -894,6 +940,7 @@
             },
 {
                 code: "CV028",
+                available: true,
                 title: "Magazziniere",
                 experience: "23 anni di esperienza",
                 sector: "Logistica",
@@ -911,6 +958,7 @@
             },
 {
                 code: "CV029",
+                available: true,
                 title: "Responsabile Laboratorio",
                 experience: "11 anni di esperienza",
                 sector: "Laboratorio",
@@ -929,6 +977,7 @@
 
 {
                 code: "CV030",
+                available: true,
                 title: "Amministrazione del personale",
                 experience: "25 anni di esperienza",
                 sector: "Amministrazione",
@@ -951,6 +1000,7 @@
             },
 {
                 code: "CV031",
+                available: true,
                 title: "Responsabile Qualità",
                 experience: "3 anni di esperienza",
                 sector: "Laboratorio",
@@ -973,6 +1023,7 @@
             },
 {
                 code: "CV032",
+                available: true,
                 title: "Manutentore",
                 experience: "30 anni di esperienza",
                 sector: "Manutenzione",
@@ -1004,6 +1055,9 @@
 
                 card.innerHTML = `
                     <div class="cv-code">${cv.code}</div>
+                    <div class="cv-availability cv-availability-${cv.available}">
+                        ${cv.available ? 'Disponibile' : 'Non disponibile'}
+                    </div>
                     <div class="cv-title">${cv.title}</div>
                     <div class="cv-experience">${cv.experience}</div>
                     <div class="cv-skills">
